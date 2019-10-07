@@ -1,21 +1,16 @@
 # Course3_coursera
-Final assignment in Getting and Cleaning data
+Getting and Cleaning Data Course Project, Final Assignment Course 3 of 10 in the Data Science Specialization
 
-Instructions:
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
-Review criterialess 
-The submitted data set is tidy.
-The Github repo contains the required scripts.
-GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
-The README that explains the analysis files is clear and understandable.
+This repository has the instructions on how to run analysis on the ‘Human Activity Recognition Using Smartphones Data Set’. Abstract: The Human Activity Recognition database is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-Here are the data for the project:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Files
+•	CodeBook.md to describe the data, variables and the manipulation to get a tidy dataset
+•	Run_analysis.R script to solve the required steps in the project task;
+1.	Merges the training and the test sets to create one data set.
+2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+3.	Uses descriptive activity names to name the activities in the data set
+4.	Appropriately labels the data set with descriptive variable names. 
+5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+•	Tidy2_2.txt is the final data set required in no5 above
 
-You should create one R script called run_analysis.R that does the following:
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names.
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
