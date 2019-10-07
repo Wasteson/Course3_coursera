@@ -3,7 +3,7 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2.	Loading package
-> library(dplyr)
+library(dplyr)
 
 Attaching package: 'dplyr'
 The following objects are masked from 'package:stats':
