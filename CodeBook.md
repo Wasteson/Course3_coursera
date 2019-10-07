@@ -40,9 +40,13 @@ y_train <- read.table("UCI HAR Dataset/train/y_train.txt" .. dim(y_train) -> 735
 8.	Setting descriptive names on variables by renaming and fixing character vectors with gsub to change wordings within each variable name. 
 
 names(Tidy1_2)[2] = "activity"
+
 names(Tidy1_2) <- gsub("Acc", "Accelerometer", names(Tidy1_2))
+
 names(Tidy1_2) <- gsub("^t", "Time", names(Tidy1_2))
+
 names(Tidy1_2) <- gsub("^f", "Frequency", names(Tidy1_2))
+
 etc.
 
 9.	Creating the second tidy dataset ‘Tidy2_2’ by grouping and summarizing so that we are given the average of each variable. Finally exporting this dataset as a file
