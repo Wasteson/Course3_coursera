@@ -37,7 +37,7 @@ y_train <- read.table("UCI HAR Dataset/train/y_train.txt" .. dim(y_train) -> 735
 7.	Adding descriptive names to the code columns so that the codes makes sense, by pairing code and description from the ‘activities’ dataset.
 
 
-8.	Setting descriptive names on variables by renaming and fixing character vectors with gsub to change wordings within each variable name. 
+8.	Setting descriptive names on variables by renaming a column and fixing character vectors with gsub to change wordings within each variable name. 
 
 names(Tidy1_2)[2] = "activity"
 
