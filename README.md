@@ -3,6 +3,11 @@ Getting and Cleaning Data Course Project, Final Assignment Course 3 of 10 in the
 
 This repository has the instructions on how to run analysis on the ‘Human Activity Recognition Using Smartphones Data Set’. Abstract: The Human Activity Recognition database is built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
+Here are the data for the project:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+A full description is available at the site where the data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+
 Files
 •	CodeBook.md to describe the data, variables and the manipulation to get a tidy dataset
 •	Run_analysis.R script to solve the required steps in the project task;
