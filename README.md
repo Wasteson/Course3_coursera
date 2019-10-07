@@ -9,7 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 
-Files
+Files:
 •	CodeBook.md to describe the data, variables and the manipulation to get a tidy dataset
 •	Run_analysis.R script to solve the required steps in the project task;
 1.	Merges the training and the test sets to create one data set.
